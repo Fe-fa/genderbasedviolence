@@ -10,7 +10,19 @@ body {
   line-height: 1.6;
   background: #f9f9f9;
 }
+.hamburger {
+   display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
 
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
 /* Header */
 .header {
   display: flex;
@@ -28,7 +40,7 @@ body {
 }
 
 .header img {
-  margin-left:-120px;
+  margin-left:10px;
 }
 
 .nav-links {
