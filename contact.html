@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Women UN</title>
+  <link rel="stylesheet" href="home.css"> <!-- Use the same CSS -->
+</head>
+<body>
+  <!-- Header (reuse from home page) -->
+  <div class="header">
+    <div class="logo">
+      <img src="./women.png" alt="Logo" />
+      <span>WOMEN UN</span>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <div class="nav-links">
+      <a href="Home.html">HOME</a>
+      <a href="#">DATA</a>
+      <a href="#">RESOURCES</a>
+      <a href="#">NEWS</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">WOMEN COUNT ▾</a>
+        <div class="dropdown-content">
+          <a href="#">Overview</a>
+          <a href="#">Where We Work</a>
+        </div>
+      </div>
+      <a href="#">PUBLICATIONS</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container">
+    <h1 style="color:#c0392b; text-align:center;">Contact Us</h1>
+    <div class="content-section">
+      <div class="text-section">
+        <p>If you or someone you know needs help, please contact us using the form below. We are here to support you.</p>
+        <form>
+          <label for="name"><strong>Full Name</strong></label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="email"><strong>Email</strong></label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="message"><strong>Your Message</strong></label>
+          <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="image-section">
+        <img src="support-women.jpg" alt="Support women illustration" />
+        <p><strong>Emergency Number:</strong><br> +254 797 6643 34 (24/7)</p>
+        <p><strong>Email:</strong><br> support@womenun.org</p>
+        <p><strong>Office Address:</strong><br> Fefatech online technology</p>
+      </div>
+    </div>
+  </div>
+<footer>
+  <div class="footer-container">
+    <div class="navigate">
+      <h3>NAVIGATE</h3>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="#">Data</a></li>
+        <li><a href="#">Publications</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Women Count</a></li>
+        <li><a href="#">Country Fact Sheets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="stay-connected">
+      <h3>STAY CONNECTED</h3>
+       <div class="social-icons">
+        <a href="#"><img src="./facebook.jpg" alt="Facebook"></a>
+        <a href="#"><img src="./twitter.jpg" alt="Twitter"></a>
+        <a href="#"><img src="./in.jpg" alt="LinkedIn"></a>
+        <a href="#"><img src="./instagram.jpg" alt="Instagram"></a>
+        <a href="#"><img src="./youtube.jpg" alt="YouTube"></a>
+      </div>
+    </div>
+    <div class="subscribe-container">
+        <h1>SUBSCRIBE</h1>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">SIGN UP</button>
+        </form>
+    </div>
+    </div>
+  </div>
+  <hr>
+  <div class="footer-disclaimer">
+    <p>   Your voice matters. Use this platform to confidentially report incidents of gender-based 
+   violence.Every report helps raise awareness, <br>support survivors, and promote action toward 
+   a safer society.</p>
+  </div>
+    <div class="footer-bottom">
+    <div class="left">
+      <a href="#">PRIVACY POLICY</a> | <a href="#">TERMS OF USE</a>
+    </div>
+    <div class="right">
+     Copyright @ Fe-fa
+    </div>
+  </div> 
+</footer>
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
