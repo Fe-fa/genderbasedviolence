@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +23,6 @@ body {
   background-color: white;
   transition: 0.3s;
 }
-
-/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,8 +39,9 @@ body {
 }
 
 .logo img {
-  width: 90px;
-  height: 60px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
 }
 
 
@@ -82,8 +81,6 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Container */
 .container {
   max-width: 1200px;
   padding: 100px 5% 40px;
@@ -129,7 +126,7 @@ form button:hover {
       color: #a29bfe;
     }
 
-/* Footer */
+
 footer {
   background: #1c1c1c;
   color: #fff;
@@ -203,8 +200,6 @@ footer {
 .footer-bottom .right {
   padding-top: 10px;
 }
-
-/* Media Queries */
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
