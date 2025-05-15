@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - Women UN</title>
-  <link rel="stylesheet" href="home.css"> <!-- Use the same CSS -->
+  <title>NEWS | Women UN</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <div class="header">
     <div class="logo">
       <img src="./BGV.jpg" alt="Logo" />
@@ -14,51 +15,52 @@
     </div>
     <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
     <div class="nav-links">
-      <a href="Home.html">HOME</a>
+      <a href="index.html">HOME</a>
       <a href="#">DATA</a>
-      <a href="#">COUNTY FACT SHEETS</a>
-      <a href="#">NEWS</a>
+      <a href="#">COUNTY FACTS SHEETS</a>
+      <a href="news.html">NEWS</a>
       <div class="dropdown">
-        <a href="#" class="dropbtn">WOMEN COUNT ▾</a>
+        <a href="#">WOMEN COUNT ▾</a>
         <div class="dropdown-content">
           <a href="#">Overview</a>
           <a href="#">Where We Work</a>
         </div>
       </div>
       <a href="#">PUBLICATIONS</a>
-      <a href="contact.html">CONTACT</a>
+      <a href="#">CONTACT</a>
     </div>
   </div>
 
-  <!-- Contact Section -->
+  <!-- Main Content -->
   <div class="container">
-    <h1 style="color:#c0392b; text-align:center;">Contact Us</h1>
-    <div class="content-section">
-      <div class="text-section">
-        <p>If you or someone you know needs help, please contact us using the form below. We are here to support you.</p>
-        <form>
-          <label for="name"><strong>Full Name</strong></label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-          <label for="email"><strong>Email</strong></label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-          <label for="message"><strong>Your Message</strong></label>
-          <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
-
-          <button type="submit">Send Message</button>
-        </form>
+    <h1 style="color: #c0392b; text-align: center;">Latest News & Updates</h1>
+    <div class="content-section news-section">
+      <!-- News Item 1 -->
+      <div class="news-item">
+        <img src="news1.jpg" alt="News 1" />
+        <h3>UN Launches New GBV Reporting App</h3>
+        <p>The United Nations introduced a new app allowing users to report incidents securely and access resources quickly.</p>
+        <a href="#">Read more...</a>
       </div>
 
-      <div class="image-section">
-        <img src="support-women.jpg" alt="Support women illustration" />
-        <p><strong>Emergency Number:</strong><br> +254 797 6643 34 (24/7)</p>
-        <p><strong>Email:</strong><br> support@womenun.org</p>
-        <p><strong>Office Address:</strong><br> Fefatech online technology</p>
+      <!-- News Item 2 -->
+      <div class="news-item">
+        <img src="news2.jpg" alt="News 2" />
+        <h3>Local Campaign Raises Awareness in Rural Areas</h3>
+        <p>A grassroots initiative is helping women in rural communities learn their rights and how to seek help safely.</p>
+        <a href="#">Read more...</a>
+      </div>
+
+      <!-- News Item 3 -->
+      <div class="news-item">
+        <img src="news3.jpg" alt="News 3" />
+        <h3>2024 Statistics Released on GBV</h3>
+        <p>The latest gender-based violence statistics show progress, but challenges remain. Here's what you need to know.</p>
+        <a href="#">Read more...</a>
       </div>
     </div>
   </div>
-<footer>
+  <footer>
   <div class="footer-container">
     <div class="navigate">
       <h3>NAVIGATE</h3>
@@ -66,7 +68,7 @@
         <li><a href="Home.html">Home</a></li>
         <li><a href="#">Data</a></li>
         <li><a href="#">Publications</a></li>
-        <li><a href="#">News</a></li>
+        <li><a href="news.html">News</a></li>
         <li><a href="#">Features</a></li>
         <li><a href="#">Women Count</a></li>
         <li><a href="#">Country Fact Sheets</a></li>
